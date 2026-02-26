@@ -5,5 +5,5 @@ st.title("BANANA ROTATE")
 
 st.header("RETURN TO MONKEY")
 st.write("Donkey kong")
-image = Image.open("banana.gif")
+image = Image.open("banana.png")
 st.image(image, caption= "Banana") 
