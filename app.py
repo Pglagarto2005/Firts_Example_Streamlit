@@ -25,3 +25,14 @@ with coll:
   resp  = st.checkbox(TEAM DK)
   if resp:
     st.write("OK!")
+
+
+with col2:
+  st.subheader("Monkey team 2")
+  st.write("Diddy Kong")
+  image2 = Image.open("DD.png")
+  st.image(image2, caption= "DD") 
+  resp  = st.checkbox("TEAM DD")
+  if resp:
+    st.write("OHHHHH!")
+  
